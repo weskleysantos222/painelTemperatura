@@ -1,7 +1,7 @@
 *{margin: 0px; padding: 0px; font-size: 100%;}
 
 /*MOBILE*/
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     body{
         display: flex;
         flex-wrap: wrap;
