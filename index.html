@@ -19,49 +19,54 @@
     </header><br>
     <h2>Equipamentos</h2>
     <section class="principal" id="principal">
-        <div class="box ar01">
+        <div class="box ar01" onclick="AbrirConfiguracoes();">
             <h5 class="titulo-box">Ar 01 - DC</h5>
             <div class="div-icone">
                 <i class="fa-duotone fa fa-eye"></i>
             </div>            
         </div>
-        <div class="box ar02">
+        <div class="box ar02" onclick="AbrirConfiguracoes();">
             <h5 class="titulo-box">Ar 02 - DC</h5>
             <div class="div-icone">
                 <i class="fa-duotone fa fa-eye"></i>
             </div>            
         </div>
         </div>
-        <div class="box ar03">
+        <div class="box ar03" onclick="AbrirConfiguracoes();">
             <h5 class="titulo-box">Ar 03 - DC</h5>
             <div class="div-icone">
                 <i class="fa-duotone fa fa-eye"></i>
             </div>            
         </div>
         </div>
-        <div class="box ar04">
+        <div class="box ar04" onclick="AbrirConfiguracoes();">
             <h5 class="titulo-box">Indefinido</h5>
             <div class="div-icone">
                 <i class="fa-duotone fa fa-eye"></i>
             </div>            
         </div>
         </div>
-        <div class="box ar05">
+        <div class="box ar05" onclick="AbrirConfiguracoes();">
             <h5 class="titulo-box">Indefinido</h5>
             <div class="div-icone">
                 <i class="fa-duotone fa fa-eye"></i>
             </div>            
         </div>
         </div>
-        <div class="box ar06">
+        <div class="box ar06" onclick="AbrirConfiguracoes();">
             <h5 class="titulo-box">Indefinido</h5>
             <div class="div-icone">
                 <i class="fa-duotone fa fa-eye"></i>
             </div>            
         </div>
         </div>
-        <button class="adicionar" id="btn-adicionar" onclick="CriarNovaBox();">+</button>
+        <button type="button" class="btn-configuracoes" id="btn-configuracoes">+</button>
     </section>
+    <div class="configuracoes" id="configuracoes">
+        <div class="configuracoes-principal">
+            <div class="configuracoes-cabecalho" onclick="FecharConfiguracoes();"><h2>X</h2></div>
+        </div>
+    </div>
     <footer>
         <ul>
             <li><i class="fa-duotone fa fa-circle verde"></i>Normal</li>
