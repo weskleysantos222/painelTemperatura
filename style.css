@@ -1,0 +1,103 @@
+*{margin: 0px; padding: 0px; font-size: 100%;}
+
+/*MOBILE*/
+@media (max-width: 800px) {
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        background-color: #0f7db2;
+        color: white;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+    .principal{
+        width: 85%;
+        height: 70vh;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content:flex-start;
+    }
+    .box{
+        width: 140px;
+        height: 100px;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: gray;
+        background-color: greenyellow;
+        margin-top: 20px;
+        font-size: 50px;
+        -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+		-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+		box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+    }
+    .box.ar02{
+        background-color: red;
+    }
+    .box.ar04{
+        background-color: orangered;
+    }
+    .box.ar05{
+        background-color: orangered;
+    }
+    .box.ar06{
+        background-color: red;
+    }
+    .titulo-box{
+        position: absolute;
+        font-size: 12px;
+    }
+    .div-icone{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .adicionar{
+        bottom: 10px;
+        right: 20px;
+        position:fixed;
+        border-radius: 100%;
+        border-color: ;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        background-color: orangered;
+        color: white;
+    }
+    footer{
+        width: 100%;
+        height: 90px;
+        border-top-style: groove;
+    }
+    ul li{
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 13px;
+    }
+    .fa-duotone{
+        margin-right: 5px;
+    }
+    .verde{
+        color: greenyellow;
+    }
+    .laranja{
+        color: rgb(251, 111, 61);
+    }
+    .vermelho{
+        color: red;
+    }
+}
