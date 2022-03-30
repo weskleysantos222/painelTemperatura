@@ -20,7 +20,7 @@
     }
     .principal{
         width: 85%;
-        height: 70vh;
+        height: 60vh;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
