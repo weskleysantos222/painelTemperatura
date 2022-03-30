@@ -20,11 +20,12 @@
     }
     .principal{
         width: 85%;
-        height: 60vh;
+        height: 50vh;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         align-content:flex-start;
+        background-color: #0f7db2;
     }
     .box{
         width: 140px;
