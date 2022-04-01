@@ -1,7 +1,7 @@
 *{margin: 0px; padding: 0px; font-size: 100%;}
 
 /*MOBILE*/
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 300px) {
     body{
         display: flex;
         flex-wrap: wrap;
@@ -21,12 +21,12 @@
     }
     .principal{
         width: 85%;
-        height: 50vh;
+        height: 70vh;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         align-content:flex-start;
-	background-color: white;
+	    background-color: white;
     }
     .box{
         width: 140px;
@@ -49,10 +49,10 @@
         background-color: red;
     }
     .box.ar04{
-        background-color: orangered;
+        background-color: yellow;
     }
     .box.ar05{
-        background-color: orangered;
+        background-color: yellow;
     }
     .box.ar06{
         background-color: red;
@@ -130,10 +130,43 @@
     .verde{
         color: greenyellow;
     }
-    .laranja{
-        color: rgb(251, 111, 61);
+    .amarelo{
+        color: yellow;
     }
     .vermelho{
         color: red;
+    }
+}
+@media screen and (min-width: 400px){
+    .box{
+        width: 145px;
+        height: 143px;
+    }
+}
+
+/*PC*/
+@media screen and (min-width: 680px){
+    
+   .principal{
+        width: 60%;
+        justify-content: space-around;
+    }
+    .box{
+        width: 250px;
+        height: 200px;
+    }
+    .box:active{
+        width: 245px;
+        height: 195px;
+    }
+    .btn-configuracoes:active{
+        width: 245px;
+        height: 200px;
+    }
+    .box:hover{
+        cursor: pointer;
+    }
+    .configuracoes-cabecalho h2:hover{
+        cursor: pointer;
     }
 }
