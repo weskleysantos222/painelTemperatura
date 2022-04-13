@@ -122,16 +122,21 @@
         font-weight: 500;
     }
     .ar-temperatura{
-        width: 150px;
+        width: 140px;
         height: 150px;
         border-radius: 100%;
-        border: 2px solid;
+        border: 2px solid black;
         align-self: center;
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 40px;
         margin-top: 50px;
+    }
+    .txtTemperatura{
+        text-align: center;
+        border: none;
+        width: 50%;
     }
     .btnT{
         width: 100px;

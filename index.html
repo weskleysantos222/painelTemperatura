@@ -64,14 +64,14 @@
     <div class="configuracoes" id="configuracoes">
         <div class="configuracoes-principal">
             <div class="configuracoes-cabecalho" onclick="FecharConfiguracoes();"><h2>X</h2></div>
-            <div class="ar-temperatura">
-                <label for="">22</label>
+            <div class="ar-temperatura" id="ar-temperatura">
+                <input type="number" name="" id="txtTemperatura" class="txtTemperatura" value="22">
             </div>
             <div class="botoes-t">
-                <input type="button" value="-" class="btnT btnDown"><input type="button" value="+" class="btnT btnUp">
+                <input type="button" value="-" class="btnT btnDown" id="btnDown" onclick="DiminuirTemperatura();"><input type="button" value="+" class="btnT btnUp" id="btnUp" onclick="AumentarTemperatura();">
             </div>
             <div class="rodape-t">
-                <a href="#"><i class="fa-solid fa fa-power-off"></i></a>
+                <a href="#"><i class="fa-solid fa fa-power-off" id="power-off" onclick="LigarDesligarAr();"></i></a>
             </div>
         </div>
     </div>
