@@ -102,7 +102,15 @@
         height: 75%;
         border-radius: 10px;
         background-color: white;
-
+        display: flex;
+        flex-direction: column;
+    }
+    .botoes-t{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        height: 150px;
+        background-color: #0f7db2;
     }
     .configuracoes-cabecalho{
         width: 100%;
@@ -112,6 +120,44 @@
         float: right;
         margin: 5px 15px;
         font-weight: 500;
+    }
+    .ar-temperatura{
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        border: 2px solid;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    .btnT{
+        width: 100px;
+        height: 50px;
+        font-size: 30px;
+        align-self: center;
+    }
+    .rodape-t{
+        height: 155px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+    }
+    .rodape-t a{
+        border: 1px solid;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+        text-decoration: none;
+    }
+    .rodape-t a:hover{
+        cursor: pointer;
     }
     footer{
         width: 100%;
