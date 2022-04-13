@@ -102,7 +102,6 @@
         height: 75%;
         border-radius: 10px;
         background-color: white;
-        transition-delay: 0.7s
 
     }
     .configuracoes-cabecalho{
@@ -158,10 +157,6 @@
     .box:active{
         width: 245px;
         height: 195px;
-    }
-    .btn-configuracoes:active{
-        width: 245px;
-        height: 200px;
     }
     .box:hover{
         cursor: pointer;
